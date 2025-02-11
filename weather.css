@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid blue;
+    width: 300px;
+    height: 100px;
+    direction: rtl;
+}
+input{
+    margin: 10px;
+}
+button{
+    margin: 10px;
+}
+label{
+    text-align: center;
+}
+.weatherInfo{
+    width:300px;
+    height: 300px;
+    border:1px solid blue;
+    text-align: center;
+    margin-top: 10px;
+}
+img[src="#"]{
+    width: 20px;
+    height: 20px;
+}
