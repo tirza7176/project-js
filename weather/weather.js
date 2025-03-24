@@ -22,24 +22,21 @@ function getWeather(city) {
                     const icon = data.weather[0].icon;
                     weatherIcon.src = `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
+                } else {
+                    h1.innerText = "";
+                    temp.innerText = "";
+                    description.innerText = "";
+                    weatherIcon.src = "";
 
-                });
+                    errorMessage.innerText = "City not found...";
+                }
+            });
+    } catch (error) {
+
     }
-    
+
 }
-/*  try {
-      if (cityName !== city) {
-          throw new Error("you must write city name");
- 
-      }
-      if (cityName = " ") {
-          throw new Error("write a city name");
-      }
-  }
-  catch (error) {
-      errorMessage.innerText = error;
-  }
-}*/
+
 
 button.addEventListener("click", () => {
 

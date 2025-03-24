@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>remember</title>
+
+    <link rel="stylesheet" href="remember.css" />
+    <script defer src="remember.js"></script>
+  </head>
+  <body>
+    <div class="instructions">
+      <h1>משחק זיכרון</h1>
+      <div class="btnbox">
+        <div id="instructions-game">הוראות המשחק</div>
+        <button id="reset">איפוס</button>
+      </div>
+      <div id="instructions-box">
+        <h2>הוראות משחק</h2>
+        <p>
+          כל שחקן בתורו לוחץ על שני קלפים. אם הקלפים תואמים – הם נשארים גלויים
+          והשחקן מקבל תור נוסף.<br />
+          אם הקלפים שונים – התור עובר לשחקן הבא וממשיכים לשחק. המשחק מסתיים
+          כשהקלפים נגמרים. השחקן עם מספר הזוגות הגבוה ביותר מנצח!
+        </p>
+      </div>
+
+      <div id="sum">
+        <div class="turn">
+          <h3>התור של</h3>
+          <div id="eTurn"></div>
+        </div>
+        <div class="turn">
+          <h3>שחקן א</h3>
+          <div id="eScorea" , style="color: green"></div>
+        </div>
+        <div class="turn">
+          <h3>שחקן ב</h3>
+          <div id="eScoreb" , style="color: blue"></div>
+        </div>
+      </div>
+    </div>
+    <div id="board"></div>
+  </body>
+</html>

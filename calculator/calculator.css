@@ -1,0 +1,28 @@
+ form {
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    input {
+        width: 200px;
+        font-size: 1.3rem;
+        border: 1px solid #000;
+        margin: 15px;
+        display: block;
+    }
+
+    input[type='button'] {
+        background-color: rgb(201, 201, 221);
+        width: 200px;
+    }
+    #reset{
+        width: 120px;
+        height: 30px;
+background-color: rgb(201, 201, 221);
+border-radius: 20px;
+    }
+    #operator{
+        width: 30px;
+        height: 30px;
+    }
